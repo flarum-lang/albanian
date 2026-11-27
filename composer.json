@@ -1,26 +1,20 @@
 {
 	"name": "flarum-lang/albanian",
+	"description": "Albanian Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Albanian language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/albanian",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"sq-locale",
-		"albanian-locale",
-		"albanian"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/albanian",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/albanian/issues",
+		"forum": "https://discuss.flarum.org/d/40212",
 		"source": "https://github.com/flarum-lang/albanian"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Albanian",
@@ -33,13 +27,7 @@
 		},
 		"flarum-locale": {
 			"code": "sq",
-			"title": "Albanian"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Shqip"
 		}
 	}
 }
